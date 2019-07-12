@@ -126,11 +126,12 @@ margin-right: 40%;
 }
 .img1{
     display:flex;
-    box-shadow: 4px 3px 3px grey;
+    justify-content: space-around;
+
+    box-shadow: 4px 5px 5px grey;
     width:200px;
     height: 250px;
-}
-img{
     width:200px;
-    height:300px;
 }
+
+
