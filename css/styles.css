@@ -1,15 +1,43 @@
 h1{
-    text-align: center;
+    /* text-align: center; */
     font-size: 30px;
     font-family: lato;
     text-transform: uppercase;
-    padding:2px;
-    text-emphasis-color: red;
+    letter-spacing: 1.6px;
+    color:white;
+    top:40%;
+    left:40%;
+    right:2%;
+    position: absolute;
+ 
+ 
+
+
+    /* transform: translate(300%,300%); */
+    
+}
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.6)),url('https://mail.google.com/mail/u/0?ui=2&ik=7403fcf671&attid=0.1&permmsgid=msg-a:r4310862060839399212&th=16be56834d5c8cde&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_v3DopL47Pg6pxgFB2YwlQHP-QCNFBhFH4xPlD6__IOTqgogqYFGKUNn7_3WqruTwqaYAEmQAVRrp5IkZIvF3_ADRNJETTj6LmFnw2Ap01ibCcFzalxXhXQcA&disp=emb&realattid=16be565415ad9b869ed3');
+
+background-size:cover;
+width:100%;
+height: 366px;
+background-repeat: no-repeat;
+/* header #overlay{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.6)),url('https://www.ndangira.net/wp-content/uploads/2019/02/Deep-Learning-Indaba-%F0%9D%95%8F-Rwanda-2019.jpg');
+    background-size:cover;
+    width:100%;
+    height:450px;
+    background-repeat:no-repeat;
+   
+    
+  } */
 }
 .image{
-float: right;
-width: 20%;
-height: 50%;
+float:left ;
+width: 10%;
+height: 60%;
+bottom: 80%;
 }
 h3{
     text-transform: uppercase;
@@ -20,6 +48,7 @@ h3{
     column-count: 2;
     column-gap: 30px;
     column-rule-style: hidden;
+    margin-left:20%;
 }
 table,th, td{
    
@@ -29,21 +58,27 @@ table,th, td{
     border-collapse: collapse;
     border:1px solid rgb(191, 191, 235);
 }
+th{
+    background-color: rgb(43, 68, 97);
+}
 table tr:hover{
-    background-color:rgb(77, 93, 163);
+    background-color:rgb(43, 68, 97);
     color:white; 
     
 }
 table{
     text-align:center;
     width:60%;
-    margin-left: 20%;
+    height: 50%;
+    background-color: rgb(221, 213, 213);
+    margin-left: 30%;
+    margin-right: 15%;
 }
 ul{
  list-style-type: none;
- margin-left:20%;
+float: left;
  padding: 0%;
- width: 200px;
+ width: 300px;
  background-color: #f1f1f1;
 }
 li a{
@@ -53,11 +88,11 @@ li a{
     text-decoration: none;
 }
 li a:hover{
-    background-color:rgb(77, 93, 163);
+    background-color:rgb(43, 68, 97);
     color:white; 
 }
 .active{
-    background-color:rgb(77, 93, 163);
+    background-color:rgb(43, 68, 97);
     color:white;
 }
 .line1{
@@ -71,7 +106,7 @@ margin-right: 40%;
 .column{
     text-align: center;
     padding:15px;
-    margin-left: 20%;
+    margin:0px;
     font-family: lato;
     font-size:17px;
 }
@@ -88,18 +123,6 @@ margin-right: 40%;
     
 }
  footer{
-     /* background-image: linear-gradient(rgba(0,0,0,0.6),rgb(0,0,0,0.5),url(https://mail.google.com/mail/u/0?ui=2&ik=7403fcf671&attid=0.1&permmsgid=msg-a:r4310862060839399212&th=16be56834d5c8cde&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_v3DopL47Pg6pxgFB2YwlQHP-QCNFBhFH4xPlD6__IOTqgogqYFGKUNn7_3WqruTwqaYAEmQAVRrp5IkZIvF3_ADRNJETTj6LmFnw2Ap01ibCcFzalxXhXQcA&disp=emb&realattid=16be565415ad9b869ed3));
-    /*background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.6)),url('https://mail.google.com/mail/u/0?ui=2&ik=7403fcf671&attid=0.1&permmsgid=msg-a:r4310862060839399212&th=16be56834d5c8cde&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_v3DopL47Pg6pxgFB2YwlQHP-QCNFBhFH4xPlD6__IOTqgogqYFGKUNn7_3WqruTwqaYAEmQAVRrp5IkZIvF3_ADRNJETTj6LmFnw2Ap01ibCcFzalxXhXQcA&disp=emb&realattid=16be565415ad9b869ed3');
-    /* background-image:url(https://mail.google.com/mail/u/0?ui=2&ik=7403fcf671&attid=0.1&permmsgid=msg-a:r4310862060839399212&th=16be56834d5c8cde&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_v3DopL47Pg6pxgFB2YwlQHP-QCNFBhFH4xPlD6__IOTqgogqYFGKUNn7_3WqruTwqaYAEmQAVRrp5IkZIvF3_ADRNJETTj6LmFnw2Ap01ibCcFzalxXhXQcA&disp=emb&realattid=16be565415ad9b869ed3); */
-    background-size: cover;
-    background-repeat:no-repeat; */
-    box-shadow: 4px 3px 5px rgb(77, 93, 163);
+    
 
 } 
-/* footer{
-    display:block;
-    display:flex;
-   justify-content:space-around;
-    left:300px;
-    box-shadow:6px 5px 5px grey;
-     */
