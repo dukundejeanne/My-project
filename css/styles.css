@@ -9,11 +9,6 @@ h1{
     left:40%;
     right:2%;
     position: absolute;
- 
- 
-
-
-    /* transform: translate(300%,300%); */
     
 }
 header{
@@ -26,7 +21,7 @@ background-repeat: no-repeat;
 
 }
 .image{
-float:left ;
+/* float:left ; */
 width: 10%;
 height: 60%;
 bottom: 80%;
@@ -66,7 +61,7 @@ table{
     margin-left: 30%;
     margin-right: 15%;
 }
-ul{
+ ul{
  list-style-type: none;
 float: left;
  padding: 0%;
@@ -79,10 +74,11 @@ li a{
     padding:8px 16px;
     text-decoration: none;
 }
-li a:hover{
+.navigation > li a:hover{
     background-color:rgb(43, 68, 97);
     color:white; 
-}
+} 
+
 .active{
     background-color:rgb(43, 68, 97);
     color:white;
@@ -114,14 +110,27 @@ margin-right: 40%;
     font-family:lato;
     
 }
-/* footer > .vl{
-    border:1px solid black;
-    height: 10Px;
-    position:absolute;
-    left:50%;
-    margin-top: 50%;
-} */
+
  footer{
     background-color:rgb(221, 213, 213);
-
+    height: 70px;
+    text-align: center;  
+    font-size:16px;
+    font-family: lato;
 } 
+.copy,.icon{
+    text-align: center;
+    display:inline-block; 
+    color:black;
+
+}
+.img1{
+    display:flex;
+    box-shadow: 4px 3px 3px grey;
+    width:200px;
+    height: 250px;
+}
+img{
+    width:200px;
+    height:300px;
+}
