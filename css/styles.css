@@ -4,19 +4,40 @@ h1{
     font-family: lato;
     text-transform: uppercase;
     padding:2px;
-
 }
-/* body{
-    margin-left:20%;
-    margin-right: 20%;
-    background-color: beige;
-
-} */
+.image{
+float: right;
+width: 20%;
+height: 50%;
+}
+h3{
+    text-transform: uppercase;
+    text-decoration-line: initial;
+    text-align: center;
+}
+table,th, td{
+   
+    text-align: center;
+    padding:5px;
+    background-origin: padding-box;
+    border-collapse: collapse;
+    border:1px solid rgb(191, 191, 235);
+}
+table tr:hover{
+    background-color:rgb(77, 93, 163);
+    color:white; 
+    
+}
+table{
+    text-align:center;
+    width:60%;
+    margin-left: 20%;
+}
 ul{
  list-style-type: none;
- margin: 0%;
+ margin-left:20%;
  padding: 0%;
- width: 250px;
+ width: 150px;
  background-color: #f1f1f1;
 }
 li a{
