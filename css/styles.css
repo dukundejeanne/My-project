@@ -5,7 +5,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: 1.6px;
     color:white;
-    top:40%;
+    top:30%;
     left:40%;
     right:2%;
     position: absolute;
@@ -16,7 +16,7 @@ background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.6)),url('https://ma
 
 background-size:cover;
 width:100%;
-height: 366px;
+height: 300px;
 background-repeat: no-repeat;
 
 }
@@ -77,10 +77,10 @@ li a{
     padding:8px 16px;
     text-decoration: none;
 }
-.navigation > li a:hover{
+ li a:hover{
     background-color:rgb(43, 68, 97);
     color:white; 
-} 
+ }
 
 .active{
     background-color:rgb(43, 68, 97);
@@ -95,7 +95,7 @@ margin-right: 40%;
  background-color: white;
 }
 .column{
-    text-align: center;
+    /* text-align: center; */
     margin-right: 30%;
     padding:15px;
     margin:0px;
@@ -121,6 +121,8 @@ margin-right: 40%;
     text-align: center;  
     font-size:16px;
     font-family: lato;
+    justify-content: space-around;
+    letter-spacing: 1.8px;
 } 
 .copy,.icon{
     text-align: center;
