@@ -38,7 +38,7 @@ h3{
     column-count: 2;
     column-gap: 30px;
     column-rule-style: hidden;
-    margin-left:20%;
+    
 }
 table,th, td{
    
@@ -89,6 +89,7 @@ li a{
 .line1{
 margin-left: 40%;
 margin-right: 40%;
+padding-bottom: 5px;
 }
 .fa fa-facebook, .fa fa-twitter{
  color:blue;
@@ -101,6 +102,7 @@ margin-right: 40%;
     margin:0px;
     font-family: lato;
     font-size:17px;
+    padding-top: 5%;
 }
 .hobbies{
     text-decoration-style: double;
