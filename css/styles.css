@@ -48,7 +48,7 @@ table,th, td{
      padding:10px; 
     background-origin: padding-box;
     border-collapse: collapse;
-    border:1px solid rgb(191, 191, 235);
+    border:1px solid white;
 }
 th{
     background-color: rgb(43, 68, 97);
@@ -62,7 +62,7 @@ table{
     text-align:center;
     width:60%;
     height: 50%;
-    background-color: rgb(221, 213, 213);
+    background-color: #f1f1f1;
     margin-left: 20%;
     margin-right: 205%;
     padding-top: 5%;
@@ -92,7 +92,7 @@ li a{
 .line1{
 margin-left: 40%;
 margin-right: 40%;
-padding-bottom: 5px;
+
 
 }
 .fa fa-facebook, .fa fa-twitter{
