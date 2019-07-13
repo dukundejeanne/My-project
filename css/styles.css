@@ -30,10 +30,10 @@ h3{
     text-transform: uppercase;
     text-decoration-line: initial;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
-.hobbies > h3{
-    text-align:start;
+.hobbies > h3, .ab{
+    margin-left: -30%;
 }
 .colum{
     column-count: 2;
