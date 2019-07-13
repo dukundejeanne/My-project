@@ -10,6 +10,12 @@ show all project that i have work on and what they does.
 * GitHub 
 ###Running tests
 throught the chrome, visualStudio Code and terminal
+### support 
+i had same support from my classmates and my TM.
+###Link
+click this link to open my portofolio.
+
+
 ###Licences
 every one is allow to use this website as references and to know the information about me.
 the is no other used allowed for this website except those one  above.
