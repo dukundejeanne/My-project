@@ -31,6 +31,9 @@ h3{
     text-decoration-line: initial;
     text-align: center;
 }
+.hobbies > h3{
+    text-align:start;
+}
 .colum{
     column-count: 2;
     column-gap: 30px;
