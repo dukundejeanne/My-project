@@ -5,7 +5,7 @@
     font-family: Libre Baskerville;
     /* text-transform: uppercase; */
     letter-spacing: 1.6px;
-    color:black;
+    color:white;
     top:60%;
     left:64%;
     right:2%;
@@ -53,8 +53,8 @@ border-radius: 50%;
 }
 .prof{
     width:220px;
-    height:220px;
-    border-radius: 50%;
+    height:250px;
+    /* border-radius: 50%; */
 }
 h3{
     text-transform: uppercase;
@@ -67,6 +67,7 @@ h3{
     margin-left: -30%;
 }
 .colum{
+    color:white;
     /* column-count: 2;
     column-gap: 30px;
     column-rule-style: hidden;
@@ -169,12 +170,13 @@ margin-right: 40%;
     /* background-color:rgb(221, 213, 213); */
     height: 100px;
     text-align: center;  
-    font-size:16px;
+    font-size:23px;
     font-family: lato;
     justify-content: space-around;
     letter-spacing: 1.8px;
 } 
 .copy,.icon{
+    font-size:23px;
     text-align: center;
     display:inline-block; 
     color:black;
