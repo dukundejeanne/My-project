@@ -34,6 +34,11 @@
     text-align:center;
     
 }
+.link,.w3-twothird{
+    font-family: Libre Baskerville;
+    font-size: 18px;
+    /* letter-spacing: 1.6px; */
+}
 header{
 background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.6)),url('https://res.cloudinary.com/drrezzrvd/image/upload/v1573636157/lauren-mancke-aOC7TSLb1o8-unsplash_jqjupk.jpg');
 
