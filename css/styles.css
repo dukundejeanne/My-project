@@ -56,6 +56,42 @@ border-radius: 50%;
     height:250px;
     /* border-radius: 50%; */
 }
+
+#portfolio .section-heading {
+	margin-left:20%; 
+	padding-top: 40px;
+	padding-bottom: 200px;
+	background-color: #33c1cf;
+	height: 432px;
+	margin-left: -100vh;
+	padding-left: 100vh;
+}
+/* 
+#portfolio .project-item {
+	margin: 0px -16px;
+} */
+
+#portfolio .section-heading h4 {
+	margin-top: 0px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+#portfolio .section-heading .line-dec {
+	width: 270px;
+	height: 1px;
+	background-color:  #33c1cf;
+	/* margin: 20px 0px 15px 0px; */
+}
+
+#portfolio .section-heading p {
+	color: #fff;
+	/* padding-right: 70px; */
+}
+
 h3{
     text-transform: uppercase;
     text-decoration-line: initial;

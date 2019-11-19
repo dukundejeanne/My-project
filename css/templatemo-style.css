@@ -9,7 +9,7 @@ http://www.templatemo.com/tm-506-tinker
 * {
     margin: 0;
     padding: 0;
-    font-family: Libre Baskerville;
+    font-family: 'Roboto', arial, sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ ul {
 
 p {
 	color: #7a7a7a;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 24px;
 }
 
@@ -49,7 +49,7 @@ p {
 .primary-blue-button a {
 	display: inline-block;
 	background-color: #33c1cf;
-	font-size: 18px;
+	font-size: 13px;
 	padding: 12px 18px;
 	color: #fff;
 	font-weight: 500;
@@ -115,7 +115,7 @@ p {
 
 .header.active .navbar-nav>li>a {
 	font-family: 'Open Sans', arial, sans-serif;
-	font-size: 18px;
+	font-size: 13px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
@@ -238,7 +238,7 @@ p {
 
 .baner-content .text-content p {
 	color: #fff;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 24px;
 	padding: 0px 25%;
 }
@@ -296,9 +296,9 @@ p {
 }
 
 
-/* .projects-holder .mix {
-   display: none; 
-} */
+.projects-holder .mix {
+  display: none;
+}
 
 .projects-holder {
 	padding: 30px 15px 0px 15px;
@@ -317,7 +317,7 @@ p {
   cursor: pointer;
   color: #fff;
   display: inline-block;
-  font-size: 19px;
+  font-size: 15px;
   text-transform: capitalize;
   font-weight: 500;
   left: 0.5px;
@@ -332,18 +332,17 @@ p {
 }
 
 #portfolio .section-heading {
-	margin-left:20%; 
-	padding-top: 40px;
+	padding-top: 200px;
 	padding-bottom: 200px;
 	background-color: #33c1cf;
-	height: 432px;
+	height: 732px;
 	margin-left: -100vh;
 	padding-left: 100vh;
 }
-/* 
+
 #portfolio .project-item {
 	margin: 0px -16px;
-} */
+}
 
 #portfolio .section-heading h4 {
 	margin-top: 0px;
@@ -357,13 +356,13 @@ p {
 #portfolio .section-heading .line-dec {
 	width: 270px;
 	height: 1px;
-	background-color:  #33c1cf;
-	/* margin: 20px 0px 15px 0px; */
+	background-color: rgba(250, 250, 250, 0.5);
+	margin: 20px 0px 15px 0px;
 }
 
 #portfolio .section-heading p {
 	color: #fff;
-	/* padding-right: 70px; */
+	padding-right: 70px;
 }
 
 
@@ -641,7 +640,7 @@ p {
 	line-height: 44px;
 	color: #fff;
 	text-align: center;
-	/* background-color: #33c1cf; */
+	background-color: #33c1cf;
 }
 
 .pop span:hover {
@@ -650,6 +649,134 @@ p {
 }
 
 
+
+
+footer {
+	margin-top: -6px;
+	background-color: #373a3c;
+	padding: 50px 0px;
+}
+footer .logo em {
+	font-style: normal;
+	font-size: 28px;
+	color: #f7c552;
+}
+footer .logo-ft {
+	display: inline-block;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #fff!important;
+	font-size: 21px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-shadow: none;
+	letter-spacing: 1px;
+}
+
+footer .logo p {
+	font-weight: 300;
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: -10px;
+	letter-spacing: 0.5px;
+}
+
+footer .logo span {
+	font-weight: 600;
+	color: #f7c552;
+}
+
+footer .logo a {
+	color: #FFF;
+}
+
+footer .logo a:hover {
+	color: #9F0;
+}
+
+footer .location h4 {
+	margin-top: 0px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+}
+
+footer .location ul li {
+	font-size: 13px;
+	color: #fff;
+	display: inline-block;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer .location ul li:first-child {
+	margin-right: 15px;
+	padding-right: 15px;
+	border-right: 1px solid rgba(250, 250, 250, 0.1);
+}
+
+footer .contact-info h4 {
+	margin-top: 0px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 30px;
+}
+
+footer .contact-info ul li {
+	font-size: 13px;
+	color: #fff;
+	display: inline-block;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 300;
+	margin-bottom: -15px;
+}
+
+footer .contact-info ul li em {
+	font-style: normal;
+	font-weight: 500;
+}
+
+footer .connect-us h4 {
+	margin-top: 0px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 35px;
+}
+
+footer .connect-us ul li {
+	display: inline-block;
+	margin-right: 2px;
+}
+
+footer .connect-us ul li a {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #373a3c;
+	font-size: 15px;
+	transition: all 0.3s;
+}
+footer .connect-us ul li a:hover {
+	background-color: #f7c552;
+}
 
 
 /* RESPONSIVE */
@@ -669,7 +796,7 @@ p {
 		text-align: center;
 		padding-top: 100px;
 		padding-bottom: 100px;
-		/* background-color: #33c1cf; */
+		background-color: #33c1cf;
 		height: 505px;
 		margin-left: -15px;
 		padding-left: 0vh;
