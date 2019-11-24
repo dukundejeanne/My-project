@@ -36,7 +36,7 @@
 }
 .link,.w3-twothird{
     font-family: Libre Baskerville;
-    font-size: 17px;
+    font-size: 20px;
     /* letter-spacing: 1.6px; */
 }
 header{
@@ -242,5 +242,8 @@ margin-right: 40%;
     width:200px;
     height: 300px;
 }
+
+
+/* ========================================================= */
 
 
